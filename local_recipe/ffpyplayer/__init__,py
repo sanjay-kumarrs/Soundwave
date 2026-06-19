@@ -1,0 +1,9 @@
+from pythonforandroid.recipe import PythonRecipe
+
+class FfpyplayerRecipe(PythonRecipe):
+    version = '4.3.5'  # Use a specific version
+    url = 'https://github.com/matham/ffpyplayer/archive/refs/tags/v{version}.zip'
+    depends = ['python3', 'sdl2', 'ffmpeg']  # Important dependencies
+    call_hostpython_via_targetpython = False
+
+recipe = FfpyplayerRecipe()

@@ -1,0 +1,9 @@
+flask
+flask-cors
+requests
+numpy
+pandas
+torch
+transformers
+scipy
+sentencepiece

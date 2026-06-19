@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.venv310/
+Python-*/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment / Environment Setup
+tts_env/
+tts_env.zip
+*.zip
+
+# Audio Datasets and Samples (User Generated)
+dataset/
+dataset_samples/
+temp_files/
+reference_audios/
+trained_model_output/
+*.wav
+
+# Machine Learning / AI Model Caches and Models
+vosk-model-small-en-us-0.15/
+.cache/
+speechbrain/
+voxceleb/
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Flutter Generated (if run/built from workspace root)
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+soundwave/build/
+soundwave/.dart_tool/
+soundwave/.packages
+soundwave/.flutter-plugins
+soundwave/.flutter-plugins-dependencies
+
+# Operating System Files
+Thumbs.db
+db.properties
+Desktop.ini
+.DS_Store
+
+tts_env.zip

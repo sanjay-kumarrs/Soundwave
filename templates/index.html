@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket.IO Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        const socket = io('http://localhost:5002'); // Adjust port if needed
+        socket.on('connect', () => {
+            console.log('Connected to Socket.IO server');
+        });
+        socket.on('message', function(msg) { // Simpler event name
+            var li = document.createElement("li");
+            li.textContent = msg.data;
+            document.querySelector('#messages').appendChild(li);
+        });
+    </script>
+</head>
+<body>
+    <h1>Socket.IO Test</h1>
+    <ul id="messages"></ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Core web server
+Flask>=3.0
+Flask-SocketIO>=5.3
+simple-websocket>=1.0
+Werkzeug>=3.0
+
+# Audio + DSP
+numpy>=1.26
+scipy>=1.11
+soundfile>=0.12
+sounddevice>=0.4
+librosa>=0.10
+
+# ML / Speech / TTS
+torch>=2.2
+torchaudio>=2.2
+transformers>=4.40
+TTS>=0.22
+vosk>=0.3
+speechbrain>=1.0
+
+# Utilities
+psutil>=5.9
+tqdm>=4.66
+PyYAML>=6.0
+pynput>=1.7
