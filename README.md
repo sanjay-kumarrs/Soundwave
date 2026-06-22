@@ -1,4 +1,4 @@
-# SoundWave: Speech Assistance For People With Stuttering 
+# SoundWave: Speech Assistance For People With Stuttering ..
 
 <div align="center">
 
